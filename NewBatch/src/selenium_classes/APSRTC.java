@@ -12,7 +12,7 @@ public class APSRTC {
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.apsrtconline.in");
-		driver.findElement(By.xpath("//*[text()='eTicket Login1']")).click();
+		driver.findElement(By.xpath("//*[text()='eTicket Login']")).click();
 		driver.findElement(By.id("userName")).sendKeys("TEXT");
 }	
 }
